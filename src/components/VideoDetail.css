@@ -1,0 +1,84 @@
+@keyframes blink {
+	50% {
+		color: transparent;
+	}
+}
+.dot {
+	animation: 1s blink infinite;
+}
+.dot:nth-child(2) {
+	animation-delay: 250ms;
+}
+.dot:nth-child(3) {
+	animation-delay: 500ms;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 35px;
+	overflow: hidden;
+	box-shadow:0px 0px 5px white;
+}
+
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-shadow:0px 0px 5px white;
+	
+}
+
+.video-title {
+	font-size: 1.8em;
+	font-weight: 500;
+	text-align: center;
+	text-shadow: 0px 1px 1px blue;
+
+}
+.video-chanel{
+	text-align: center;
+	font-family: 'Hanalei Fill', cursive;
+	text-shadow: 0px 1px 1px blue;
+}
+.content {
+	text-align: center;
+	text-shadow: 0px 1px 1px blue;
+}
+
+.box {
+	border-radius: 15px;
+	box-shadow:0px 0px 5px white;
+	display: block;
+	padding: 12.6px;
+	color:white;
+	background-color:black; 
+}
+.Time {
+	color:lightgreen;
+	text-shadow: 0px 1px 1px white;
+}
+
+	.loader:empty {
+		position: absolute;
+		margin-left: 20em;
+		margin-top: 10em;
+		height:6em;
+		width: 6em;
+		border: 1.1em solid white(0, 0, 0, 1.2);
+		border-left: 1.1em white;
+		border-radius: 50%;
+		animation: load8 1.1s infinite linear;
+	  }
+	  
+	  @keyframes load8 {
+		0% {
+		  transform: rotate(0deg);
+		}
+		100% {
+		  transform: rotate(360deg);
+		}
+	  }
+
