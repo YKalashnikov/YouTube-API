@@ -2,7 +2,7 @@
 
 A minimalistic UI for searching YouTube Videos.
 
-➜ [Demo]('https://ykalashnikov.github.io/YouTube-API/')
+➜ [Demo](https://ykalashnikov.github.io/YouTube-API/)
 
 ### Using
 - YouTube API
@@ -13,12 +13,13 @@ A minimalistic UI for searching YouTube Videos.
 
 ### Installation
 - Clone this repository
+https://github.com/YKalashnikov/YouTube-API.git
 
 ```shell
 $ cd react-youtube-search
 $ yarn install
 $ yarn start
-- 'if it does not work, try to put your youTube API_KEY'
+$ if you run in to a problem, try to insert your youTube API_KEY
 ```
 
 ---
