@@ -1,10 +1,8 @@
 
-.search-bar {
-    width:85ex;
-    margin-left:13px; 
-    
-}
+
 .input {
+    margin-left:12px;
+    width: 63.5%;
     height:auto;
     color:white;
     text-shadow: 0px 1px 1px blue;
@@ -18,8 +16,8 @@
     text-shadow: 0px 1px 1px blue;
 }
 .logo {
-    position: absolute;
-    margin-left:104ex;
+    margin-bottom:-5%;
+    margin-left:80%;
     width:100px;
     height:100%;
 }
