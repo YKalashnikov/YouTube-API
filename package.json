@@ -6,6 +6,7 @@
 	"homepage": "https://ykalashnikov.github.io/YouTube-API/",
 	"dependencies": {
 		"gh-pages": "^1.2.0",
+		"git-pages": "^0.8.1",
 		"lodash.debounce": "4.0.8",
 		"react": "^15.6.1",
 		"react-dom": "^15.6.1",
