@@ -16,7 +16,7 @@ export default class SearchBar extends Component {
 		return (
 			<div className="block">
 				
-				<div className="control search-bar">
+				<div className="searchBar">
 				<a href='https://www.youtube.com/'>
 				<img className='logo' src={logo} alt='' />
 				</a>
